@@ -5,7 +5,7 @@ Este é o site oficial da padaria "Delícia", está no processo de desenvolvimen
 📸 Screenshots:
 
 Aqui estão algumas imagens de como o site está ficando:
-![image](https://github.com/user-attachments/assets/dcab4c56-4517-4871-bc2c-4da5259dfceb)
+![image](https://github.com/user-attachments/assets/27f834b6-9356-4de2-ba2d-5d229804276a)
 ![image](https://github.com/user-attachments/assets/6fe21e68-9530-4f66-8c9a-0ab4e5d5c217)
 
 🚀 Tecnologias Utilizadas

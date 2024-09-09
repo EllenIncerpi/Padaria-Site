@@ -19,8 +19,11 @@ JavaScript: (Preciso fazer a implementação) Interatividade e funcionalidades d
 
 
 📚 O que aprendi e devo aprender ainda
+
 Durante o desenvolvimento do site "Delícia", foquei na base do código e na Estilização visual dele.
 
 Devo fazer ainda:
+
 -Implementar um cardápio interativo utilizando [CSS Grid/Flexbox] para uma melhor experiência do usuário.
+
 -Aprimorar o uso de JavaScript para adicionar funcionalidades dinâmicas, como filtros de produtos no cardápio.

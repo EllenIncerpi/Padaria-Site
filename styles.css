@@ -1,3 +1,4 @@
+
 /* Reset básico */
 * {
     margin: 0;
@@ -11,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -27,35 +28,44 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #d1d1d1;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .banner {
-    background: url('padaria.jpg') no-repeat center center/cover;
-    height: 400px;
+    background: url('img/banner.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #070501;
     text-align: center;
 }
 
+@media (max-width: 900px) {
+    .banner {
+        height: 800px; /* Menor altura para telas menores */
+        background-size: contain; /* Garante que a imagem seja toda visível */
+    }
+}
+
+
 .banner h2 {
-    font-size: 3rem;
+    font-size: 3rem; /* texto dentro do banner, tamanho dele */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .menu-section {
-    padding: 50px;
+    padding: 200px; /* Altura do background */
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #FDEDD8;
 }
 
 .menu-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 3.0rem; /* 2.5rem; */
+    margin-bottom: 210px; /* 30px; */
 }
 
 .menu-items {
@@ -70,10 +80,10 @@ nav ul li a {
 }
 
 .menu-item img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 15px;
+    width: 300px; /* largura*/
+    height: 300px; /* altura*/
+    border-radius: 60%; /* borda redonda */
+    margin-bottom: 30px; /* distância letras */
 }
 
 .menu-item h3 {
@@ -86,20 +96,20 @@ nav ul li a {
     color: #555;
 }
 
-.contact-section {
-    padding: 50px;
+.contact-section {  /* Rodapê */
+    padding: 20px;
     text-align: center;
-    background-color: #333;
+    background-color: #5B391E;
     color: white;
 }
 
 .contact-section h2 {
     font-size: 2.5rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 footer {
-    background-color: #222;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px 0;
